@@ -1,12 +1,11 @@
 import os
 
 from django.db import models
-from django.utils.encoding import python_2_unicode_compatible
+from django.utils.translation import gettext_lazy as _
 
 from .validators import valid_extension
 
 
-@python_2_unicode_compatible
 class Advertising(models.Model):
 
     id_advertising = models.CharField(unique=True, max_length=10)
@@ -24,7 +23,6 @@ class Advertising(models.Model):
             return self.name
 
 
-@python_2_unicode_compatible
 class ImageAdvertising(models.Model):
 
     def generate_path(instance, filename):
