@@ -1,4 +1,5 @@
 from django.core.exceptions import ValidationError
+from django.utils.translation import gettext_lazy as _
 
 
 def valid_extension(value):
@@ -12,6 +13,6 @@ def valid_extension(value):
         not value.name.endswith('.bmp') and
         not value.name.endswith('.jpg')):
 
-        text = "Files allowed"
+        text = _("Files allowed")
         files = ".jpg, .jpeg, .png, .gif, .bmp"
         raise ValidationError(text + ': ' + files)
