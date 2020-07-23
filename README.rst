@@ -12,6 +12,8 @@ Django-Advertising
       - | |python37| |django30x| |travis| |coverall|
     * - license
       - |github-license|
+    * - release
+      - |release-pypi|
     * - contribute
       - |github-issues| |github-forks| |github-contributors|
     * - share
@@ -36,6 +38,10 @@ Django-Advertising
 .. |github-license| image:: https://img.shields.io/github/license/mapeveri/django-advertising.svg
     :target: https://github.com/mapeveri/django-advertising/blob/master/LICENSE
     :alt: Github License
+
+.. |release-pypi| image:: http://img.shields.io/badge/Release-PyPi-0c4b33.svg?style=flat&colorA=8F8F8F
+    :target: https://pypi.org/project/django-advertising/
+    :alt: django-advertising Release on PyPi
 
 .. |github-issues| image:: https://img.shields.io/github/issues/mapeveri/django-advertising
     :target: https://github.com/mapeveri/django-advertising/issues
